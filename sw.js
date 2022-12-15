@@ -126,6 +126,7 @@ self.addEventListener('fetch', (event) => {
               .then((networkResponse) => {
                   caches.open(DYNAMIC_CACHE_NAME).then((cache) => {
                       cache.put(event.request, networkResponse);
+                      cleanCache(DYNAMIC_CACHE_NAME, 8);
                   })
                   return networkResponse.clone()
               })
