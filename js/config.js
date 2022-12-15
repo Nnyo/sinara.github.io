@@ -1,6 +1,6 @@
 const connection = 'https://sinara-backend-production.up.railway.app/api/'; //API
 
-const app = 'http://127.0.0.1:5500/'; //Front Route
+const app = 'https://nnyo.github.io/sinara.github.io/'; //Front Route
 
 const header = new Headers();
 header.append('Content-Type','application/json');
