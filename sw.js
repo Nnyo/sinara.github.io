@@ -51,7 +51,8 @@ self.addEventListener('install',(event) =>{
                 'https://nnyo.github.io/sinara.github.io/js/request/logout.js',
                 'https://nnyo.github.io/sinara.github.io/js/request/product.js',
                 'https://nnyo.github.io/sinara.github.io/js/toast.min.js',
-                'https://nnyo.github.io/sinara.github.io/js/validate.js'
+                'https://nnyo.github.io/sinara.github.io/js/validate.js',
+                'https://nnyo.github.io/sinara.github.io/views/observaciones.html'
             ]
         );
     });
